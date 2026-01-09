@@ -1,0 +1,38 @@
+header {
+	text-align: center;
+	font-size: 60px;
+	font-family: "Elsie", Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: "Righteous", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+
+	text-transform: capitalize;
+	color: white;
+}
+
+#post-list {
+	display: grid;
+	grid-template-columns: repeat(3, 2fr);
+	gap: 15px;
+}
+
+li {
+	border: 1px solid orange;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 30px;
+	padding: 10px;
+	background-color: rgba(255, 165, 0, 0.7);
+	list-style-type: none;
+	box-shadow: 3px 3px 10px 0.5px black;
+}
+
+li:hover {
+	background-color: orange;
+	cursor: pointer;
+	box-shadow: 5px 5px 10px 2px black;
+}
